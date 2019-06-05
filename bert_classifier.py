@@ -112,6 +112,8 @@ class BertClassifier:
             seq_length=self.config['max_seq_length'],
             is_training=True,
             drop_remainder=False)
+			
+        estimator.train(input_fn=train_input_fn, max_steps=num_train_steps)
         
         self.estimator = estimator
         return self.estimator
