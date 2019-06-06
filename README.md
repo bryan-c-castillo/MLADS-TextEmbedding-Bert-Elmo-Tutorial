@@ -2,6 +2,10 @@
 
 Examples of using Bert and ELMo.
 
+## Warning
+
+These notebooks use data from IMDB. Some of the notebooks display randomly selected reviews and many of those reviews or movies may be considered offensive.
+
 ## Environment and Setup
 
 These notebooks use Python3 and was tested using Python 3.6. The notebooks were tested on Ubuntu and Windows. The notebooks were tested using Azure Machine Learning service workspace Notebook VMs.

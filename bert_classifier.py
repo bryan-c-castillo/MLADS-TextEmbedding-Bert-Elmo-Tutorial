@@ -12,6 +12,7 @@ from bert import optimization
 from bert import tokenization
 
 class BertClassifier:
+    """A helper to use Bert as a Classifier."""
     
     DEFAULT_CONFIG = {
         'bert_url': 'https://tfhub.dev/google/bert_uncased_L-12_H-768_A-12/1',
