@@ -21,4 +21,4 @@ REM download wordnet corpus
 python -c "import nltk; nltk.download('wordnet')"
 
 REM install dependencies for bert
-python pip install bert-tensorflow sklearn tensorflow_hub
+python -m pip install bert-tensorflow sklearn tensorflow_hub
